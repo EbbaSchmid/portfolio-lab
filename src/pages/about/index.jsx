@@ -5,7 +5,7 @@ const About = () => {
     <>
     <h1>About</h1>
     <img src=""></img>
-    <p>Write an about</p>
+    <p>As an organized, creative marketing developer in the Construction Industry, I bring my years of experience (in and out of the field) to embrace and elevate a diverse workforce.</p>
     </>
   );
 }
