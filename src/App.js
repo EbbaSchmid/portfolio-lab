@@ -1,36 +1,48 @@
 import logo from './logo.svg';
 import './App.css';
-import {Routes, Route } from 'react-router-dom'
-import About from './pages/About'
-import Contact from './pages/Contact'
-import Home from './pages/Home'
-import Projects from './pages/Projects'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/home/index'
+import About from './pages/about/index'
+import Contact from './pages/contact/index'
+import Resume from './pages/resume/index'
+import Projects from './pages/projects/index'
 import NavBar from './components/NavBar'
+import { Link } from 'react-router-dom'
 
 function App() {
   return (
-    <div>
-      <NavBar />
+    <>
+    <NavBar />
       <Routes>
-        
-        <Route path='/about'
-          element={<About/>} />
+        <Route
+          path='/about'
+          element={<About />}
+        />   
 
-        <Route path='/contact'
-          element={<Contact/>} />
+        <Route
+          path='/contact'
+          element={<Contact />}
+        />   
 
-        <Route path='/home'
-          element={<Home/>} />
+        <Route
+          path='/'
+          element={<Home />}
+        />
 
-        <Route path='/projects'
-          element={<Projects/>} />
+        <Route
+          path='/projects'
+          element={<Projects />}
+        />
 
-        <Route path='/resume'
-          element={<Resume/>} />
+        <Route
+          path='/resume'
+          element={<Resume />}
+        />
 
       </Routes>
-    </div>
+
+    </>
   );
 }
 
-export default App;
+export default App

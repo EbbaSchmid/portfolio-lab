@@ -1,9 +1,10 @@
+import React from "react";
+
 const Home = () => {
   return ( 
     <>
     <h1>Home</h1>
-    <img src=""></img>
-    <p>Ebba S</p>
+    <h2>Ebba Schmid</h2>
     </>
   );
 }

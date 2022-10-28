@@ -1,9 +1,11 @@
+import React from "react";
+
 const About = () => {
   return ( 
     <>
     <h1>About</h1>
     <img src=""></img>
-    <p>Here is my bio</p>
+    <p>Write an about</p>
     </>
   );
 }
