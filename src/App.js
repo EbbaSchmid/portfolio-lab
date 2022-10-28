@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom'
-import Home from './pages/home/index'
 import About from './pages/about/index'
 import Contact from './pages/contact/index'
 import Resume from './pages/resume/index'
@@ -23,11 +22,6 @@ function App() {
           path='/contact'
           element={<Contact />}
         />   
-
-        <Route
-          path='/'
-          element={<Home />}
-        />
 
         <Route
           path='/projects'
