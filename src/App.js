@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom'
-import About from './pages/about/index'
-import Contact from './pages/contact/index'
-import Resume from './pages/resume/index'
-import Projects from './pages/projects/index'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Resume from './pages/resume/Resume'
+import Projects from './pages/Projects'
 import NavBar from './components/NavBar'
-import { Link } from 'react-router-dom'
+import ProjectDetails from './pages/ProjectDetails';
 
 function App() {
   return (
@@ -14,10 +15,13 @@ function App() {
     <NavBar />
       <Routes>
         <Route
+          path='/home'
+          element={<Home />}
+        />
+        <Route
           path='/about'
           element={<About />}
         />   
-
         <Route
           path='/contact'
           element={<Contact />}
@@ -27,7 +31,10 @@ function App() {
           path='/projects'
           element={<Projects />}
         />
-
+        <Route
+          path='/projects/:projectDetails'
+          element={<ProjectDetails />}
+        />
         <Route
           path='/resume'
           element={<Resume />}
