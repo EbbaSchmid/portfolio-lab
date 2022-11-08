@@ -1,31 +1,34 @@
 import { Link } from "react-router-dom"
+import styles from "./NavBar.module.css"
 
 function NavBar() {
     return (
-    <nav>
-            <Link to='/ '>
-                Ebba S - Home Page
-            </Link>
+        <nav>
+            <article className={styles.navBar}>
+                <Link id="name" to='/'>Ebba S</Link>
+            <ul>
+                <li>
+                    <Link to='/about'>About</Link>
+                </li>
 
-        <div id="navLinks">    
-            <Link to='/about' >
-                About
-            </Link>
-            
-            <Link to='/contact'>
-                Contact
-            </Link>
-            
-            <Link to='/projects'>
-                Projects
-            </Link>
-
-            <Link to='/resume'>
-                Resume
-            </Link>
-        </div>
-    </nav>
-)
+                <li>
+                    <Link to='/contact'>Contact</Link>
+                </li>
+                <li>
+                    <Link to='/home'>Home</Link>
+                </li>
+                <li>
+                    <Link to='/projects'>Projects</Link>
+                </li>
+                <li>
+                    <Link to='/resume'>Resume</Link>
+                </li>
+            </ul>
+                <img id="star" src="./images/star.png" alt="Star"/>
+            </article>      
+        </nav>
+    
+    )
 }
 
 export default NavBar

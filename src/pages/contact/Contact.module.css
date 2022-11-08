@@ -1,0 +1,43 @@
+.contact {
+  background-color:black;
+  height: 400px;
+  /* font-family: 'Syncopate', sans-serif; */
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 50px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.contact h1 {
+  color: rgb(39, 142, 216);
+  font-size: 60px;
+
+}
+
+.contact h2 {
+  color: rgb(39, 142, 216);
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact img {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* flex-direction: row; */
+  /* justify-content: space-evenly; */
+
+}
+
+a:link {
+  color: rgb(39, 142, 216);
+}
+
+a:visited {
+  color: rgb(39, 142, 216);
+}
