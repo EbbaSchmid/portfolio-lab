@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
+import Home from './pages/Home/Home'
 import About from './pages/about/About'
 import Contact from './pages/contact/Contact'
 import Resume from './pages/resume/Resume'
@@ -26,15 +26,14 @@ function App() {
           path='/contact'
           element={<Contact />}
         />   
-
-        <Route
+        {/* <Route
           path='/projects'
           element={<Projects />}
         />
         <Route
           path='/projects/:projectDetails'
           element={<ProjectDetails />}
-        />
+        /> */}
         <Route
           path='/resume'
           element={<Resume />}
