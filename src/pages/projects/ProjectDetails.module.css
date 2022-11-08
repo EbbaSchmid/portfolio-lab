@@ -1,0 +1,21 @@
+.projectDetails {
+  background-color:black;
+  height: 400px;
+  /* font-family: 'Syncopate', sans-serif; */
+  font-family: 'Amatic SC', cursive;
+}
+
+a:visited {
+  color: rgb(39, 142, 216);
+}
+
+li {
+  color: rgb(39, 142, 216);
+}
+
+/* button {
+} */
+
+p {
+  font-size: 30px;
+}

@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Resume from './pages/resume/Resume'
-import Projects from './pages/Projects'
+import Projects from './pages/projects/Projects'
 import NavBar from './components/NavBar'
 import ProjectDetails from './pages/ProjectDetails';
 
