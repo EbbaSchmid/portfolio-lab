@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home/Home'
@@ -7,7 +6,7 @@ import Contact from './pages/contact/Contact'
 import Resume from './pages/resume/Resume'
 import Projects from './pages/projects/Projects'
 import NavBar from './components/NavBar'
-import ProjectDetails from './pages/ProjectDetails';
+// import ProjectDetails from './pages/ProjectDetails';
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
     <NavBar />
       <Routes>
         <Route
-          path='/home'
+          path='/'
           element={<Home />}
         />
         <Route
@@ -26,11 +25,11 @@ function App() {
           path='/contact'
           element={<Contact />}
         />   
-        {/* <Route
+        <Route
           path='/projects'
           element={<Projects />}
         />
-        <Route
+        {/* <Route
           path='/projects/:projectDetails'
           element={<ProjectDetails />}
         /> */}

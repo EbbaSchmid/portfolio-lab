@@ -1,8 +1,7 @@
 .navBar {
-  background-color:black;
+  background-color:rgb(232, 227, 227);
   background-size: cover;
-  /* font-family: 'Syncopate', sans-serif; */
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Syncopate', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,16 +22,9 @@
   text-decoration: none;
 }
 
-.navBar img {
-  color: white;
-  padding: 25px;
-}
 
 .navBar a {
   font-size: 35px;
-}
-
-.nav link {
 }
 
 .navBar a {
@@ -41,14 +33,13 @@
 }
 
 a:visited {
-  /* color: rgb(39, 142, 216); */
-  color: rgb(39, 142, 216);
+  color: rgb(121, 123, 125);
   text-decoration: none;
 
 }
 
 :root {
-  background-color:black;
+  background-color:rgb(232, 227, 227);
 
 }
 

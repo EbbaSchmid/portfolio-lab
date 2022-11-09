@@ -1,17 +1,16 @@
 .projects {
-  background-color:black;
+  background-color:rgb(232, 227, 227);
   height: 400px;
-  /* font-family: 'Syncopate', sans-serif; */
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Syncopate', sans-serif;
   padding: 50px;
 }
 
 a:link {
-  color: rgb(39, 142, 216);
+  color: rgb(121, 123, 125);
 }
 
 a:visited {
-  color: rgb(39, 142, 216);
+  color: rgb(121, 123, 125);
 }
 
 .projects li {
@@ -37,7 +36,7 @@ button {
 }
 
 .projects h1 {
-  color: rgb(39, 142, 216);
+  color: rgb(121, 123, 125);
   font-size: 60px;
 
 }

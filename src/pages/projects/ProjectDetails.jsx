@@ -23,9 +23,9 @@
 
 
 //     <a href ={project.repositoryLink}
-//     ><button>GitHub Repo</button></a>
+//     ><button>GitHub Link</button></a>
 
-//     <a href ={project.deploymentLink}><button>Deployed Site</button></a>
+//     <a href ={project.deploymentLink}><button>Deployed Link</button></a>
 //     </>
 //     </main>
 //   );

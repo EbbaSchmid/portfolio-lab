@@ -15,7 +15,7 @@ function NavBar() {
                     <Link to='/contact'>Contact</Link>
                 </li>
                 <li>
-                    <Link to='/home'>Home</Link>
+                    <Link to='/'>Home</Link>
                 </li>
                 <li>
                     <Link to='/projects'>Projects</Link>
@@ -24,7 +24,6 @@ function NavBar() {
                     <Link to='/resume'>Resume</Link>
                 </li>
             </ul>
-                <img id="star" src="./images/star.png" alt="Star"/>
             </article>      
         </nav>
     

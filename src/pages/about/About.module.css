@@ -1,7 +1,7 @@
 .about {
-  background-color:black;
+  background-color:rgb(232, 227, 227);
   height: 400px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Syncopate', sans-serif;
   font-size: 40px;
   font-weight: 700;
   display: inline-block;
@@ -9,7 +9,7 @@
 }
 
 .about h1 {
-  color: rgb(39, 142, 216);
+  color: rgb(121, 123, 125);
   font-size: 60px;
   display: block;
   white-space: nowrap;
@@ -17,7 +17,7 @@
 }
 
 .about p {
-  color: rgb(39, 142, 216);
+  color: rgb(121, 123, 125);
   display: inline;
   float: left;
   margin-left: 0px;
@@ -27,7 +27,7 @@
 
 .about img {
   border-radius: 200px;
-  border: 5px solid rgb(39, 142, 216);
+  border: 5px solid rgb(121, 123, 125);
   float: right;
   display: inline;
   margin-right: 10px;
@@ -35,9 +35,9 @@
 }
 
 a:link {
-  color: rgb(39, 142, 216);
+  color: rgb(121, 123, 125);
 }
 
 a:visited {
-  color: rgb(39, 142, 216);
+  color: rgb(121, 123, 125);
 }

@@ -7,7 +7,7 @@ const Home = () => {
     <>
     <h1>Home</h1>
     <h2>Ebba S</h2>
-    <img id="headshot"src='' alt='headshot'></img>
+    <img id="headshot"src='./images/headshot.jpg' alt='headshot'></img>
   
     <p>I'm here</p>
     </>

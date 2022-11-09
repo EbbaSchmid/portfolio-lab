@@ -1,16 +1,14 @@
-// import { projects } from "../data/projects"
-// import ProjectsList from "../components/ProjectsList"
-// import styles from "./pages/projects/Projects.module.css"
+// import ProjectsList from "./components/ProjectsList";
+// import { projects } from "./data/projects";
 
-
-// const Projects = (props)=> {
+// function Projects () {
 //   return (
-//     <main className={styles.projects}>
 //     <>
-//       <ProjectsList projects={projects}/>
+//     <div className="projectcontainer">
+//       <ProjectsList projects={projects} />
+//     </div>
 //     </>
-//     </main>
 //   )
 // }
 
-// export default Projects
+// export default Projects;
