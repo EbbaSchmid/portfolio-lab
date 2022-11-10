@@ -1,16 +1,16 @@
-// import ProjectsList from "./components/ProjectsList";
-// import { projects } from "./data/projects";
-// import React from 'react'
+import React from 'react'
 
-// function Projects () {
+import ProjectsList from "../components/ProjectsList";
+import { projects } from "../data/projects";
 
-//   return (
-//     <>
-//     <div className="projectcontainer">
-//       <ProjectsList projects={projects} />
-//     </div>
-//     </>
-//   )
-// }
+function Projects () {
+  return (
+    <>
+      <div className="projectcontainer">
+        <ProjectsList projects={projects} />
+      </div>
+    </>
+  )
+}
 
-// export default Projects;
+export default Projects;
