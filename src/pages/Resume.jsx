@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-router-dom"
 import styles from "./Resume.module.css"
 
 
@@ -8,10 +7,8 @@ const Resume = () => {
     <main className={styles.resume}>
     <>
     <h1>Resume</h1>
-    <Link to="./files/EbbaS-CV.docx.pdf">
-    </Link>
-    <p>My work and experience</p>
-    <a href="./files/EbbaS-CV.docx.pdf" download="Resume">Click here</a>
+    <p>My work and experience here:</p>
+    <a href="https://drive.google.com/file/d/1Y5tOhiB5dMIRCYz_ZGPcwhgb-VR_73jI/view?usp=sharing" download="Resume">Click here</a>
 
     </>
     </main>
