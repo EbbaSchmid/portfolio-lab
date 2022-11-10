@@ -1,6 +1,5 @@
 
-export let projects = [{
-
+const projects = [{
 title: "Construction Advice", 
 description: "Community advice tracker",
 image:"./images/advice1.jpg",
@@ -15,3 +14,5 @@ repositoryLink:"https://github.com/EbbaSchmid/Guess-The-Tool-Game",
 deploymentLink:"https://ebba-guess-the-tool.netlify.app/"
 }
 ]
+
+export { projects };

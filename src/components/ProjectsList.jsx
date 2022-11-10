@@ -1,13 +1,22 @@
 import ProjectPreview from "./ProjectPreview";
-import { projects } from "../data/projects";
+import styles from "./ProjectsList.module.css"
 
-const ProjectsLists = (props) => {
-  return (
-    <div className="project-container">
-    <p className="projectmainfont"></p>
-    <ProjectPreview projects={projects}/>
-    </div>
+
+const ProjectsList = (props) => {
+  return ( 
+    <>
+      <article className={styles.projectPreview}>
+        <h1>Projects</h1>
+        <ul>
+            {props.projects.map(project =>
+          <li >
+            <ProjectPreview title ={project.title} image = {project.image} key={project.title} />
+          </li>
+      )}
+        </ul>
+      </article>
+    </>
   );
 }
 
-export {ProjectsLists}
+export default ProjectsList;
