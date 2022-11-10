@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from "./ProjectsList.module.css"
 // import { projects } from "../data/projects";
 
 
@@ -7,13 +8,18 @@ const ProjectsList = () => {
     <>
     <div className="project-container">
 
-    <img src="./images/guess.jpg" alt="projectscreenshot"/>
-    <a href="https://github.com/EbbaSchmid/Guess-The-Tool-Game.git"> Github </a>
-    <a href="https://ebba-guess-the-tool.netlify.app/"> Deployed </a>
-				
+    <img id="guess" src="./images/guess.jpg" alt="projectscreenshot"/>
+    <br></br>
+    <a id="git" href="https://github.com/EbbaSchmid/Guess-The-Tool-Game.git"> Github </a>
+    <br></br>
+    <a id="dep" href="https://ebba-guess-the-tool.netlify.app/"> Deployed </a>
+		
+    <br></br>
 
     <img src="./images/advice1.jpg" alt="projectscreenshot"/> 
+    <br></br>
     <a href="https://github.com/EbbaSchmid/construction-advice.git"> Github </a>
+    <br></br>
     <a href="https://construction-advice-tracker.fly.dev"> Deployed </a>
 
     </div>
