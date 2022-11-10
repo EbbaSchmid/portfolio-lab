@@ -10,9 +10,9 @@ const ProjectsList = () => {
 
     <img id="guess" src="./images/guess.jpg" alt="projectscreenshot"/>
     <br></br>
-    <a id="git" href="https://github.com/EbbaSchmid/Guess-The-Tool-Game.git"> Github </a>
+    <a href="https://github.com/EbbaSchmid/Guess-The-Tool-Game.git"> Github </a>
     <br></br>
-    <a id="dep" href="https://ebba-guess-the-tool.netlify.app/"> Deployed </a>
+    <a href="https://ebba-guess-the-tool.netlify.app/"> Deployed </a>
 		
     <br></br>
 
